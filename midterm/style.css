@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    padding: 1em;
+}
+
+header{
+    background-image: url("images/TheOffice.webp");
+    background-repeat: no-repeat;
+    background-position: middle;
+    padding: 2em;
+}
+
+.btn{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 5em;
+    text-align: center;
+    text-decoration: none;
+   
+}
