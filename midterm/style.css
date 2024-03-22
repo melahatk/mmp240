@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 body{
     background-color: black;
     color: white;
+}
+
+p{
+    margin-bottom: 1em;
 }
 
 #wrapper {
@@ -11,15 +23,20 @@ body{
     padding: 1em;
 }
 
+
+
 header{
     background-image: url("images/TheOffice.webp");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: middle;
     padding: 2em;
+    text-align: center;
+    padding-top: 200px;
 }
 
 .btn{
-    display: block;
+    display: inline-block;
     background-color: lightblue;
     color: black;
     padding: 10px;
@@ -28,4 +45,53 @@ header{
     text-align: center;
     text-decoration: none;
    
+}
+
+nav{ 
+    background-color: rgb(182, 150, 125);
+    padding: 0.5em;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+main{
+    padding: 2em;
+}
+
+main h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.col-left{
+    float: left;
+    width: 48%;
+}
+
+.col-right{
+    float: right;
+    width: 48%;
+}
+
+footer{
+    clear: both;
+    padding: 2em;
+}
+
+.logo{
+    display: inline;
 }
