@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +19,7 @@ p{
 }
 
 #wrapper {
-    width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -39,12 +42,13 @@ header{
     display: inline-block;
     background-color: lightblue;
     color: black;
+    font-family: "Oxygen", sans-serif;
     padding: 10px;
     border-radius: 10px;
     width: 5em;
     text-align: center;
     text-decoration: none;
-   
+    clear: left;   
 }
 
 nav{ 
@@ -75,11 +79,28 @@ main h2{
     font-family: "Anton", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 36px;
+}
+
+p{
+    font-family: "Oxygen", sans-serif;
+    font-size: 16px;
+}
+
+h3{
+    font-family: "Caveat Brush";
+    margin-bottom: 0.2em;
+    font-size: 20px;
 }
 
 .col-left{
     float: left;
     width: 48%;
+    padding-top: 2em;
+}
+
+.col-left p{
+    padding-top: 1em;
 }
 
 .col-right{
@@ -95,3 +116,27 @@ footer{
 .logo{
     display: inline;
 }
+
+#episodes h2{
+    font-family: "Caveat Brush";
+    text-decoration: underline;
+}
+
+.episode-card{
+    display: flex;
+}
+
+.episode-card img{
+    width: 400px;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h4{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+}
+
